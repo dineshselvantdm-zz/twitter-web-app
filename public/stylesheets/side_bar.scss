@@ -1,0 +1,80 @@
+@import './config.scss';
+
+.sideBar {
+    margin-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sideBar__profileName{
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.sideBar__profileAtName {
+    color: #66757f;
+    font-size: 22px;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.sideBar__profileContent {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.sideBar__profileLocation__name{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px;
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+.sideBar__profileLocation__name__url{
+    color: $side-bar-url-color;
+}
+.sideBar__composeTweet__head {
+    color: #66757f;
+    margin-bottom: 10px;
+}
+.sideBar__composeTweet__input{
+    max-width: 66%;
+    height: 120px;
+    border-color: $side-bar-texarea-border-color;
+}
+
+.sideBar__composeTweet__btnWrap__btn {
+    background-color: $tweet-button-bg-color;
+    border-color: transparent;
+    color: $tweet-button-color;
+    padding: $tweet-button-padding;
+    width: $tweet-button-width;
+    height: $tweet-button-height;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sideBar__composeTweet__btnWrap {
+    margin-top: 5px;
+}
+
+.sideBar__composeTweet {
+    margin-top: 20px;
+}
+.sideBar__profileLocation{
+    margin-top: 8px;
+}
+
+.sideBar__profileURL{
+    margin-top: 8px;
+}
+.sideBar__joinDate{
+    margin-top: 8px;
+}

@@ -1,0 +1,134 @@
+@import './config.scss';
+
+.timeline__list {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+
+.timeline__list__item {
+    border-bottom: $timeline-border-size solid $timeline-border-color;
+    cursor: pointer;
+    list-style: none;
+    padding: $timeline-padding;
+    background: $timeline-bg-color;
+    border-left: $timeline-border-size solid $timeline-border-color;
+    border-right: $timeline-border-size solid $timeline-border-color;
+}
+
+.timeline__list__item__content {
+    margin-left: 58px;
+}
+
+.timeline__list__item__content__header__img{
+    float: left;
+    margin-top: 3px;
+    margin-left: -58px;
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.timeline__list__item__content__header__name{
+    color: $header-font-color;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.timeline__list__item__content__header__sideName{
+    font-size: 14px;
+    color: $header-at-name-font-color;
+    padding-left: 10px;
+}
+
+.timeline__list__item__content__tweetText{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.timeline__list__item__content__media{
+    margin-top: 10px;
+}
+
+.timeline__list__item__content__media__img{
+    max-width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+}
+.timeline__list__item__content__footer{
+    height: 18px;
+    line-height: 1;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+.timeline__list__item__content__footer__icon{
+    display: inline-block;
+    min-width: 80px;
+    position: relative;
+}
+.timeline__list__item__content__footer__icon__reply,
+.timeline__list__item__content__footer__icon__retweet,
+.timeline__list__item__content__footer__icon__like,
+.timeline__list__item__content__footer__icon__msg,
+.timeline__list__item__content__footer__icon__count{
+    color: $icon-color;
+}
+
+.timeline__list__item__content__footer__icon__reply:before{
+    content: "\f151";
+}
+.timeline__list__item__content__footer__icon__retweet:before{
+    content: "\f152";
+}
+.timeline__list__item__content__footer__icon__msg:before{
+    content: "\f054";
+}
+
+
+.timeline__list__item__content__footer__icon__like {
+  display: inline-block;
+  background-color: $icon-color;
+  height: 10px;
+  margin: -3px 12px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.timeline__list__item__content__footer__icon__like:before,
+.timeline__list__item__content__footer__icon__like:after {
+  content: "";
+  background-color: $icon-color;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+}
+
+.timeline__list__item__content__footer__icon__like:before {
+  top: -5px;
+  left: 0;
+}
+
+.timeline__list__item__content__footer__icon__like:after {
+  left: 5px;
+  top: 0;
+}
+
+
+.timeline__list__item__content__footer__icon__count{
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 4px;
+    right: 36px;
+}

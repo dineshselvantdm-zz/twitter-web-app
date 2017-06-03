@@ -1,0 +1,46 @@
+@import './config.scss';
+
+.navBar {
+    background-color: $nav-bar-bg-color;
+    height: 60px;
+}
+
+.navBar__content__list,.profileHead__content__list{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.navBar__content__list__item{
+    line-height: 1;
+    display: inline-block;
+    padding: 14px 15px 7px;
+}
+
+.navBar__content__list__item__label{
+    color: $nav-bar-list-item-label-color;
+    font-size: 11px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+
+.navBar__content__list__item__val{
+    color: $nav-bar-list-item-color;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 3px;
+    font-weight: 600;
+    text-align: center;
+}
+.navBar__label{
+    color: $nav-bar-list-item-label-color;
+}
+.navBar__accountsSelector{
+    border-color: $nav-bar-accounts-dropdown-color;
+    color: $nav-bar-accounts-dropdown-color;
+    background-color: white;
+    padding: 8px 40px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+}

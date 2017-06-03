@@ -1,0 +1,55 @@
+@import './config.scss';
+
+.gridCell{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 100%;
+}
+.size1of4{
+    width: 25%;
+}
+
+.size2of4{
+    width: 50%;
+}
+
+
+@media only screen and (max-width : 1000px){
+    .size4of4{
+        width: 100%;
+    }
+    .avatar {
+        display: none;
+    }
+    .navBar__content__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profileHead__content__list{
+        @extend .navBar__content__list;
+    }
+    .navbar__switch{
+        @extend .navBar__content__list;
+        margin-top: 12px;
+    } 
+    .mainContent{
+        margin-top: 20px;
+    }
+    .navBar__label{
+        margin-right: 9px;
+    }
+    .timeline__list__item__content__footer__icon {
+        min-width: 74px;
+    }
+    .banner{
+        height: 210px;
+    }
+    .banner__img{
+        @extend .banner;
+    }
+    .navBar__content{
+        margin-top: -15px;
+    }
+}

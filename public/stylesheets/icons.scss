@@ -1,0 +1,39 @@
+@import './config.scss';
+
+.icon,.iconGeo,.iconURL,.iconDate,.iconTweet,
+.timeline__list__item__content__footer__icon__reply,
+.timeline__list__item__content__footer__icon__retweet,
+.timeline__list__item__content__footer__icon__msg{
+    font-family: $primary-font-family;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: $primary-font-color;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.iconGeo{  
+    padding-right: 10px;
+}
+
+.iconURL{
+    padding-right: 7px;
+}
+.iconTweet{
+    padding-right: 4px;
+    color:white;
+}
+
+.iconGeo:before{
+    content: "\f031";
+}
+.iconURL:before{
+    content: "\f098";
+}
+.iconDate:before{
+    content: "\f203";
+}
+.iconTweet:before{
+    content: "\f029";
+}

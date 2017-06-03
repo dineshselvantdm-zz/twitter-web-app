@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Twitter View Should render the twitter view for user 1`] = `
+"<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div class=\\"banner\\">
+      <div>
+        <img src=\\"/images/javascript-1500.png\\" class=\\"banner__img\\">
+        <div class=\\"container\\">
+          <div class=\\"avatar\\">
+            <img src=\\"/images/javascript-400.jpg\\" class=
+            \\"avatar__img\\">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=\\"navBar\\">
+      <div class=\\"container\\">
+        <div class=\\"gridCell size1of4\\"></div>
+        <div class=\\"gridCell size2of4 size4of4\\">
+          <div class=\\"navBar__content\\">
+            <ul class=\\"navBar__content__list\\">
+              <li class=\\"navBar__content__list__item\\">
+                <div class=\\"navBar__content__list__item__label\\">
+                  Tweets
+                </div>
+                <div class=\\"navBar__content__list__item__val\\">
+                  15.5K
+                </div>
+              </li>
+              <li class=\\"navBar__content__list__item\\">
+                <div class=\\"navBar__content__list__item__label\\">
+                  Following
+                </div>
+                <div class=\\"navBar__content__list__item__val\\">
+                  12K
+                </div>
+              </li>
+              <li class=\\"navBar__content__list__item\\">
+                <div class=\\"navBar__content__list__item__label\\">
+                  Followers
+                </div>
+                <div class=\\"navBar__content__list__item__val\\">
+                  20K
+                </div>
+              </li>
+              <li class=\\"navBar__content__list__item\\">
+                <div class=\\"navBar__content__list__item__label\\">
+                  Likes
+                </div>
+                <div class=\\"navBar__content__list__item__val\\">
+                  300K
+                </div>
+              </li>
+              <li class=\\"navBar__content__list__item\\">
+                <div class=\\"navBar__content__list__item__label\\">
+                  Lists
+                </div>
+                <div class=\\"navBar__content__list__item__val\\">
+                  42K
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class=\\"gridCell size1of4 size4of4 navbar__switch\\">
+          <label class=\\"navBar__label\\">Switch User :</label>
+          <select class=\\"navBar__accountsSelector\\">
+            <option value=\\"Javascript\\">
+              Javascript
+            </option>
+            <option value=\\"React\\">
+              React
+            </option>
+            <option value=\\"Vue\\">
+              Vue
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class=\\"mainContent\\">
+      <div class=\\"container\\">
+        <div class=\\"gridCell size1of4 size4of4\\">
+          <div class=\\"sideBar\\">
+            <h1 class=\\"sideBar__profileName\\">
+              Javascript
+            </h1>
+            <h2 class=\\"sideBar__profileAtName\\">
+              @Javascript
+            </h2>
+            <p class=\\"sideBar__profileContent\\">
+              Official JavaScript developer community; promoting
+              relevant technologies, devs, news and events. Most
+              posts by @makingwavs, your friendly CM.
+            </p>
+            <div class=\\"sideBar__profileLocation\\">
+              <div class=\\"sideBar__profileLocation__name\\">
+                India
+              </div>
+            </div>
+            <div class=\\"sideBar__profileURL\\">
+              <div class=\\"sideBar__profileLocation__name\\">
+                <a href=\\"/\\" class=
+                \\"sideBar__profileLocation__name__url\\">javascript.in</a>
+              </div>
+            </div>
+            <div class=\\"sideBar__joinDate\\">
+              <div class=\\"sideBar__profileLocation__name\\">
+                Joined August 1990
+              </div>
+            </div>
+            <div class=\\"sideBar__composeTweet\\">
+              <div class=\\"sideBar__composeTweet__head\\">
+                What's happening?
+              </div>
+              <textarea class=\\"sideBar__composeTweet__input\\">
+</textarea>
+              <div class=\\"sideBar__composeTweet__btnWrap\\">
+                <button class=
+                \\"sideBar__composeTweet__btnWrap__btn\\"><span>Tweet</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=\\"gridCell size2of4 size4of4\\">
+          <div class=\\"profileHead\\">
+            <div class=\\"profileHead__content\\">
+              <ul class=\\"profileHead__content__list\\">
+                <li class=\\"profileHead__content__list__item\\">Tweets
+                </li>
+                <li class=\\"profileHead__content__list__item\\">Tweets
+                &amp; replies
+                </li>
+                <li class=\\"profileHead__content__list__item\\">Media
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class=\\"timeline\\">
+            <ol class=\\"timeline__list\\">
+              <li class=\\"timeline__list__item\\">
+                <div class=\\"timeline__list__item__content\\">
+                  <div class=
+                  \\"timeline__list__item__content__header\\">
+                    <div>
+                      <img src=\\"/images/javascript-small.jpg\\"
+                      class=\\"timeline__list__item__content__header__img\\"><span class=\\"timeline__list__item__content__header__name\\">Javascript</span><span class=\\"timeline__list__item__content__header__sideName\\">@Javascript</span><span class=\\"timeline__list__item__content__header__sideName\\">2h</span>
+                    </div>
+                  </div>
+                  <div class=
+                  \\"timeline__list__item__content__tweet\\">
+                    <p class=
+                    \\"timeline__list__item__content__tweetText\\">
+                      AngularJS 4 with virtual DOM
+                    </p>
+                  </div>
+                  <div class=
+                  \\"timeline__list__item__content__media\\">
+                    <img src=\\"/images/ang-tweet.jpg\\" class=
+                    \\"timeline__list__item__content__media__img\\">
+                  </div>
+                  <div class=
+                  \\"timeline__list__item__content__footer\\">
+                    <div class=
+                    \\"timeline__list__item__content__footer__icon\\">
+                    </div>
+                    <div class=
+                    \\"timeline__list__item__content__footer__icon\\">
+                      <span class=
+                      \\"timeline__list__item__content__footer__icon__count\\">
+                      10</span>
+                    </div>
+                    <div class=
+                    \\"timeline__list__item__content__footer__icon\\">
+                      <span class=
+                      \\"timeline__list__item__content__footer__icon__count\\">
+                      7</span>
+                    </div>
+                    <div class=
+                    \\"timeline__list__item__content__footer__icon\\">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class=\\"timeline__list__item\\">
+                <div class=\\"timeline__list__item__content\\">
+                  <div class=
+                  \\"timeline__list__item__content__header\\">
+                    <div>
+                      <img src=\\"/images/javascript-small.jpg\\"
+                      class=\\"timeline__list__item__content__header__img\\"><span class=\\"timeline__list__item__content__header__name\\">Javascript</span><span class=\\"timeline__list__item__content__header__sideName\\">@Javascript</span><span class=\\"timeline__list__item__content__header__sideName\\">2
+                      days</span>
+                    </div>
+                  </div>
+                  <div class=
+                  \\"timeline__list__item__content__tweet\\">
+                    <p class=
+                    \\"timeline__list__item__content__tweetText\\">
+                      Watch: Try this summery and healthy Arugula
+                      grape mango
+                    </p>
+                  </div>
+                  <div class=
+                  \\"timeline__list__item__content__media\\">
+                    <img src=\\"/images/mango-tweet.jpg\\" class=
+                    \\"timeline__list__item__content__media__img\\">
+                  </div>
+                  <div class=
+                  \\"timeline__list__item__content__footer\\">
+                    <div class=
+                    \\"timeline__list__item__content__footer__icon\\">
+                    </div>
+                    <div class=
+                    \\"timeline__list__item__content__footer__icon\\">
+                      <span class=
+                      \\"timeline__list__item__content__footer__icon__count\\">
+                      8</span>
+                    </div>
+                    <div class=
+                    \\"timeline__list__item__content__footer__icon\\">
+                      <span class=
+                      \\"timeline__list__item__content__footer__icon__count\\">
+                      4</span>
+                    </div>
+                    <div class=
+                    \\"timeline__list__item__content__footer__icon\\">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class=\\"gridCell size1of4\\"></div>
+      </div>
+    </div>
+  </body>
+</html>
+"
+`;

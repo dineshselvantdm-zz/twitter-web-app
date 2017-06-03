@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="robots" content="INDEX,FOLLOW" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Twitter App</title>
+		<link href="/assets/bundle.css" media="screen" rel="stylesheet">	
+		<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<await(promiseData from data.promiseData)  timeout=20000>
+            <div id = "appContainer">
+				$!{promiseData.serverside_rendered_html}
+			</div>
+			<script src="/assets/bundle.min.js" async="async" defer="defer"></script>
+			<script type="text/javascript">
+				var userData = ${JSON.stringify(promiseData.userData)}
+			</script>
+        </await>			
+	</body>
+</html>

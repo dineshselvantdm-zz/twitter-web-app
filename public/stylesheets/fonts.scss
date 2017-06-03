@@ -1,0 +1,7 @@
+@import './config.scss';
+
+@font-face {
+    font-family: $primary-font-family;
+    font-style: normal;
+    src:  url($primary-font-url) format('woff')
+}

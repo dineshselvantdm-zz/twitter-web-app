@@ -1,0 +1,17 @@
+@import './config.scss';
+
+.profileHead__content{
+    background-color: $profile-heading-bg-color;
+    border: 1px solid $profile-heading-border-color;
+    border-radius: 5px 5px 0 0;
+    margin-top: 8px;
+}
+
+.profileHead__content__list__item{
+    line-height: 1;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: $profile-heading-item-color;
+    padding: 15px 15px 12px;
+}
