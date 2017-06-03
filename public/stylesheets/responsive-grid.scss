@@ -15,7 +15,7 @@
 }
 
 
-@media only screen and (max-width : 1000px){
+@media only screen and (max-width : $responsive-breakpoint-max-width){
     .size4of4{
         width: 100%;
     }
