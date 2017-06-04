@@ -27,5 +27,5 @@ Eg:- Tweet with <script>alert(document.cookie)</script>
 8)Page should not be reloaded for switching user. It should be fast.
 9)There should not be difference between server side rendered page and client page
 10)Favicon should be present
-
+11)Empty tweet should not be posted in timeline
 
