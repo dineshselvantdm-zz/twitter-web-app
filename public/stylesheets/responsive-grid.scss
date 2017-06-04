@@ -33,9 +33,13 @@
     .navbar__switch{
         @extend .navBar__content__list;
         margin-top: 12px;
+        position: relative;
     } 
     .mainContent{
         margin-top: 20px;
+    }
+    .navBar{
+        height: 70px;
     }
     .navBar__label{
         margin-right: 9px;
@@ -51,5 +55,8 @@
     }
     .navBar__content{
         margin-top: -15px;
+        background-color: white;
+        padding: 0px 72px 0px 113px;
+        overflow-x: scroll;;
     }
 }

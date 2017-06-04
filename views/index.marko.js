@@ -8,7 +8,7 @@ function create(__helpers) {
       escapeScript = __helpers.xs;
 
   return function render(data, out) {
-    out.w("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"INDEX,FOLLOW\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>Twitter App</title><link href=\"/assets/bundle.css\" media=\"screen\" rel=\"stylesheet\"> <link rel=\"shortcut icon\" href=\"/images/favicon.ico\" type=\"image/x-icon\"></head><body>");
+    out.w("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"INDEX,FOLLOW\"> <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=yes\"><title>Twitter App</title><link href=\"/assets/bundle.css\" media=\"screen\" rel=\"stylesheet\"> <link rel=\"shortcut icon\" href=\"/images/favicon.ico\" type=\"image/x-icon\"></head><body>");
 
     await_tag({
         timeout: 20000,
