@@ -5,7 +5,7 @@ var stubUserData = require("./stubs/userModel.js");
 describe("user model", function () {
 	it("all the api keys should be in the stub", function () {
 		var userName = "javascript";
-		api.fetchUserData(userName).then(function(response){
+		return api.fetchUserData(userName).then(function(response){
 			var apiUserData = response.data;
 			Object.keys(apiUserData).forEach((key) => {
 		      if (stubUserData[key] === undefined) {
@@ -22,7 +22,7 @@ describe("user model", function () {
 describe("user stub", function () {
 	it("all the stub keys should be in the api", function () {
 		var userName = "javascript";
-		api.fetchUserData(userName).then(function(response){
+		return api.fetchUserData(userName).then(function(response){
 			var apiUserData = response.data;
 			Object.keys(stubUserData).forEach((key) => {
 		      if (apiUserData[key] === undefined) {
