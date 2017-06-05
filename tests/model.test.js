@@ -46,10 +46,10 @@ describe("user stub", function () {
 
 
 var wrongStubUserData = require("./stubs/wrongUserModel.js");
-describe("user model", function () {
+describe("user error model", function () {
 	it("bannerImg not found error should be displayed", function () {
 		var userName = "javascript";
-		api.fetchUserData(userName).then(function(response){
+		return api.fetchUserData(userName).then(function(response){
 			var apiUserData = response.data;
 			Object.keys(apiUserData).forEach((key) => {
 		      if (wrongStubUserData[key] === undefined) {
